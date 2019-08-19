@@ -1,0 +1,11 @@
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00000.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00001.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00002.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00003.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00004.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00005.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00006.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00007.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00008.au
+/home/song/MIREX2018_v1/debug_data/GTZAN/blues.00009.au
+
