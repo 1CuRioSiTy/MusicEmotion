@@ -117,7 +117,7 @@ batchY_placeholder = tf.placeholder(tf.int64, [batch_size])
 
 init_state = tf.placeholder(tf.float32, [num_layers, 2, batch_size, state_size])
 
-state_per_layer_list = tf.unstack(init_state, axis=0)
+state_per_layer_list = tf.unstack(init_state, axis=0)  # num_layers 个 2 * batch_size * state_size
 rnn_tuple_state = [tf.contrib.rnn.LSTMStateTuple(state_per_layer_list[idx][0], state_per_layer_list[idx][1])
      for idx in range(num_layers)]
 
@@ -143,6 +143,7 @@ def RNN(X, weights, biases):
     X = tf.split(X, truncated_num, 0)
 
     cell = MultiRNNCell([DropoutWrapper(LSTMCell(state_size), output_keep_prob=dropout) for _ in range(num_layers)])
+    #  output_keep_prob和input_keep_prob的区别？
 
     # Forward passes
     outputs, current_state = tf.contrib.rnn.static_rnn(cell, X, dtype=tf.float32)

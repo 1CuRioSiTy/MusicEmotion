@@ -46,6 +46,7 @@ def scattering_to_tfrecords(scattering_path, tfrecords_file, class_dict, flag):
                 if 'training' in tfrecords_file:
                     # get music class
                     music_name = scat_file_name[scat_file_name.rfind('-') + 1:].replace('.scat', '')
+                    music_class_name = ""
                     for ctent in training_file_cont:
                         if music_name in ctent:
                             music_class_name = ctent.split('\t')[1].strip()
@@ -66,7 +67,8 @@ def scattering_to_tfrecords(scattering_path, tfrecords_file, class_dict, flag):
                         scat_file_name + '_' + music_class_name + '_' + str(music_class_num)))
                     training_num += 1
             else:
-                raise FileExistsError('could not find file: {} in {}, please check results of feature extraction.'.format(scat_file_name, scattering_path))
+                raise FileExistsError('could not find file: {} in {}, please check results of feature extraction.'
+                                      .format(scat_file_name, scattering_path))
 
 
     elif flag=='test':
