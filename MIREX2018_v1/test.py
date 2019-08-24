@@ -21,6 +21,7 @@ from tensorflow.contrib.rnn import MultiRNNCell
 from class_reader_loader import get_class_dict
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"]='3'
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 x_height = 157
 x_width = 433

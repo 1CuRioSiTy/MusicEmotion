@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ceb8f152-7740-451b-9ee1-72baf76f1f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00000.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00001.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00002.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00003.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00004.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00005.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00006.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00007.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00008.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/blues.00009.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00000.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00001.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00002.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00003.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00004.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00005.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00006.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00007.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00008.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/GTZAN/classical.00009.au" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/featureExtractionListFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/debug_data/featureExtractionListFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/outputListFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/debug_data/outputListFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/testListFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/debug_data/testListFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/debug_data/trainListFile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/debug_data/trainListFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch_folder/preprocessing/data_tfrecords/scattering_test.tfrecords" beforeDir="false" afterPath="$PROJECT_DIR$/scratch_folder/preprocessing/data_tfrecords/scattering_test.tfrecords" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scratch_folder/preprocessing/data_tfrecords/scattering_training.tfrecords" beforeDir="false" afterPath="$PROJECT_DIR$/scratch_folder/preprocessing/data_tfrecords/scattering_training.tfrecords" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/training.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +29,7 @@
           <entry key="iml" value="3" />
           <entry key="m" value="4" />
           <entry key="meta" value="1" />
-          <entry key="py" value="33" />
+          <entry key="py" value="34" />
           <entry key="pyi" value="1" />
           <entry key="sh" value="14" />
           <entry key="tfrecords" value="8" />
@@ -69,7 +42,7 @@
           <entry key="Bash" value="14" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="33" />
+          <entry key="Python" value="34" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -92,11 +65,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="440">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MIREX2018_v1/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="e#105#152#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -219,13 +204,13 @@
         <option value="$PROJECT_DIR$/MIREX2018_v1/test.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/write_to_tfrecords.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/myTest.py" />
-        <option value="$PROJECT_DIR$/MIREX2018_v1/training.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/debug_data/outputListFile.txt" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/extractScatFileName.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/preprocessing/filenumberDict.txt" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/debug_data/trainListFile.txt" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/debug_data/testListFile.txt" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh" />
+        <option value="$PROJECT_DIR$/MIREX2018_v1/training.py" />
       </list>
     </option>
   </component>
@@ -271,6 +256,23 @@
               <item name="MIREX2018_GS1_20180831" type="b2602c69:ProjectViewProjectNode" />
               <item name="MIREX2018_GS1_20180831" type="462c0819:PsiDirectoryNode" />
               <item name="MIREX2018_v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIREX2018_GS1_20180831" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIREX2018_GS1_20180831" type="462c0819:PsiDirectoryNode" />
+              <item name="MIREX2018_v1" type="462c0819:PsiDirectoryNode" />
+              <item name="debug_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIREX2018_GS1_20180831" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIREX2018_GS1_20180831" type="462c0819:PsiDirectoryNode" />
+              <item name="scratch_folder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MIREX2018_GS1_20180831" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MIREX2018_GS1_20180831" type="462c0819:PsiDirectoryNode" />
+              <item name="scratch_folder" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocessing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -437,6 +439,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27476883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -576,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3900">
-          <caret line="167" column="19" selection-start-line="167" selection-start-column="19" selection-end-line="167" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MIREX2018_v1/preprocessing/ScatNet/addpath_scatnet.m">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -623,8 +619,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="440">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -669,6 +665,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#105#152#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

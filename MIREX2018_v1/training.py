@@ -21,7 +21,7 @@ from tensorflow.contrib.rnn import MultiRNNCell
 
 os.environ["TF_CPP_MIN_LOG_LEVEL"]='3'
 # cpu only
-# os.environ["CUDA_VISIBLE_DEVICES"]="-1"
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 x_height = 157
 x_width = 433
