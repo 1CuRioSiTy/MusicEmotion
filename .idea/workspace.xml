@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ceb8f152-7740-451b-9ee1-72baf76f1f70" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MIREX2018_v1/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/MIREX2018_v1/training.py" afterDir="false" />
-    </list>
+    <list default="true" id="ceb8f152-7740-451b-9ee1-72baf76f1f70" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,9 +27,9 @@
           <entry key="iml" value="3" />
           <entry key="m" value="4" />
           <entry key="meta" value="1" />
-          <entry key="py" value="34" />
+          <entry key="py" value="35" />
           <entry key="pyi" value="1" />
-          <entry key="sh" value="14" />
+          <entry key="sh" value="15" />
           <entry key="tfrecords" value="8" />
           <entry key="txt" value="28" />
           <entry key="xml" value="3" />
@@ -39,17 +37,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Bash" value="14" />
+          <entry key="Bash" value="15" />
           <entry key="IDEA_MODULE" value="3" />
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="34" />
+          <entry key="Python" value="35" />
           <entry key="PythonStub" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1683" />
+          <entry key="py" value="1685" />
           <entry key="sh" value="149" />
           <entry key="txt" value="12" />
         </counts>
@@ -58,27 +56,27 @@
         <counts>
           <entry key="Bash" value="149" />
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="1683" />
+          <entry key="Python" value="1685" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="490">
+              <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="179" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MIREX2018_v1/training.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#105#152#0" expanded="true" />
               </folding>
@@ -87,8 +85,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MIREX2018_v1/debug_data/trainListFile.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/MIREX2018_v1/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+              <folding>
+                <element signature="e#105#152#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -201,7 +206,6 @@
         <option value="$PROJECT_DIR$/MIREX2018_v1/b.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/preprocessing/class_reader_loader.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/class_reader_loader.py" />
-        <option value="$PROJECT_DIR$/MIREX2018_v1/test.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/write_to_tfrecords.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/myTest.py" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/debug_data/outputListFile.txt" />
@@ -211,6 +215,7 @@
         <option value="$PROJECT_DIR$/MIREX2018_v1/debug_data/testListFile.txt" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh" />
         <option value="$PROJECT_DIR$/MIREX2018_v1/training.py" />
+        <option value="$PROJECT_DIR$/MIREX2018_v1/test.py" />
       </list>
     </option>
   </component>
@@ -596,13 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="211" column="15" selection-start-line="211" selection-start-column="15" selection-end-line="211" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MIREX2018_v1/class_reader_loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -614,13 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="23" column="51" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
@@ -671,10 +662,27 @@
     <entry file="file://$PROJECT_DIR$/MIREX2018_v1/training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="38" />
+          <folding>
+            <element signature="e#105#152#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
           <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="e#105#152#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MIREX2018_v1/trainAndClassify.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="28" column="2" lean-forward="true" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="179" />
         </state>
       </provider>
     </entry>
