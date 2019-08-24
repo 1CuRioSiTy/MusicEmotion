@@ -14,6 +14,7 @@ cd $DIR
 echo "### current work direction is:"
 pwd
 python --version
+python extractScatFileName.py
 python class_reader_loader.py --pathOfTrainFileList $2 --pathOfTestFileList $3
 echo 1
 python write_to_tfrecords.py --pathOfScratchFolder $1 --pathOfTrainFileList $2 --pathOfTestFileList $3

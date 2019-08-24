@@ -1,0 +1,14 @@
+/home/ailab/HYZ/MIREX/train/blues/blues.00008.au
+/home/ailab/HYZ/MIREX/train/blues/blues.00009.au
+/home/ailab/HYZ/MIREX/train/classical/classical.00008.au
+/home/ailab/HYZ/MIREX/train/classical/classical.00009.au
+/home/ailab/HYZ/MIREX/train/country/country.00008.au
+/home/ailab/HYZ/MIREX/train/country/country.00009.au
+/home/ailab/HYZ/MIREX/train/disco/disco.00008.au
+/home/ailab/HYZ/MIREX/train/disco/disco.00009.au
+/home/ailab/HYZ/MIREX/train/hiphop/hiphop.00008.au
+/home/ailab/HYZ/MIREX/train/hiphop/hiphop.00009.au
+/home/ailab/HYZ/MIREX/train/jazz/jazz.00008.au
+/home/ailab/HYZ/MIREX/train/jazz/jazz.00009.au
+/home/ailab/HYZ/MIREX/train/metal/metal.00008.au
+/home/ailab/HYZ/MIREX/train/metal/metal.00009.au
